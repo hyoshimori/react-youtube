@@ -1,8 +1,13 @@
 import React from 'react'
+import Layout from '../components/Layout/Layout';
+
 
 const Watch = () => {
+  console.log("watch")
   return (
-    <div>Watch page</div>
+    <Layout>
+      <div>Watch page</div>
+    </Layout>
   )
 }
 
